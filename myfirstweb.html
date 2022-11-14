@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>Tulips</title>
+<style>
+*{
+margin:0;
+padding:0;
+}
+body{
+margin-top:20px;
+}
+ul li{
+float:right;
+width:150px;
+height:35px;
+line-height:35px;
+font-size:27px;
+background-color:blue;
+color:yellow;
+text-align:center;
+border-radius:25px;
+}
+h1{
+font-size:50px;
+margin:0;
+padding:0;
+text-align:center;
+font-family:'arial';
+position:absolute;
+top:50%;
+left:50%;
+transform:translateX(-50%) translateY(-50%);
+color:blue;
+}
+ul li a{
+text-decoration: none;
+color:white;
+}
+ul li ul{
+display:none;
+}
+ul li:hover > ul{
+display:block;
+}
+ul li:hover{
+background-color:green;
+text-decoration:underline;
+}
+</style>
+</head>
+<body style="background-image:url('yellow-tulips.jpg');background-repeat:no repeat;background-size:100% 100%">
+<h1><center>Engineering</center></h1>
+<ul  style="list-style-type:none">
+<li><a href="#">Feedback</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#">courses</a>
+  <ul style="list-style-type:none">
+    <li><a href="cse.html">CSE</a></li>	
+	<li><a href="ece.html">ECE</a></li>
+	<li><a href="#">MECH</a></li>
+	<li><a href="#">CIVIL</a></li>
+  </ul>
+  </li>
+<li><a href="#">About</a></li>
+<li><a href="#">Home</a></li>
+</ul>
+</body>
+</html>
